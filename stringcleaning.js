@@ -14,18 +14,11 @@ arrOfStrs.forEach(function(str){
           if(str[i] ==='0')
          {
             str = str.replace(str[i], 'zero');
-            // if(str[i+1] <= '9' && str[i+1]> '1'){
-            //     str = str.replace(str[i+1], '');
-    
-            //  }
-             
+      
          }
           if(str[i] ==='1'){
             str = str.replace(str[i], 'one');
-            // if(str[i+1] <= '9' && str[i+1]> '1'){
-            //     str = str.replace(str[i+1], '');
-    
-            //  }
+          
          }
           if(str[i] <= '9' && str[i]> '1'){
        
